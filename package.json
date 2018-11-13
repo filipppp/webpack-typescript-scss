@@ -1,0 +1,44 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "Webpack App",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js --port 4200"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "url-loader": "^1.1.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.1.1"
+  }
+}
